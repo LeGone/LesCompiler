@@ -1,0 +1,12 @@
+#message StandardLibrary included
+
+function echo($string)
+{
+	WriteLine($string);
+}
+
+function wait_then_close()
+{
+	Write("Press any key to close this window");
+	ReadKey();
+}

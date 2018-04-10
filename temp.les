@@ -1,0 +1,6 @@
+function main()
+{
+	   WriteLine("This is just a test.");
+	  // There is a sample-file named test.les
+}
+

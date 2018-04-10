@@ -1,0 +1,29 @@
+#include <stdlib.les>
+
+#message Das Compiling der Datei __FILE__ läuft __DATE__
+#define func_t function
+#define TEST Variables
+
+func_t test($string1, $string2)
+{
+/*
+ 2 / 0
+*/
+	Write("3+2+5.5=");
+	WriteLine(3 + 2 + 5.5);
+	Write("2.7+5=");
+	WriteLine(2.7 + 5);
+	WriteLine("die " + "zahl " + 1);
+	WriteLine("Den String \"ASDF\" verdreifachen=" + "ASDF" * 3);
+	//WriteLine(1 / 0); // Gibt einen Fehler
+	echo($string1);
+	echo($string2);
+}
+
+function main()
+{
+	echo("das ist doch nur ein test der TEST");
+	test("test1", "test2");
+	wait_then_close();
+}
+
